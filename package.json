@@ -1,0 +1,28 @@
+{
+  "name": "mosby",
+  "description": "mosby title",
+  "scripts": {
+    "start": "npx gulp",
+    "serve": "npx gulp serve",
+    "build": "npx gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimakovalevskyi/mosby.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dimakovalevskyi/mosby#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.10.0"
+  }
+}
